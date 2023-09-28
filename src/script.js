@@ -76,10 +76,6 @@ const addClassInterval = () => {
 // After first btn click
 btnStart.addEventListener("click", () => {
   setTimeout(() => {
-    logoHome.classList.add("fade-in");
-  }, 500);
-
-  setTimeout(() => {
     particles.style.opacity = 1;
   }, 600);
 
@@ -157,6 +153,9 @@ btnFadeText.addEventListener("click", () => {
   text.classList.add("text-fade-out");
   ShowBtn();
 
+  // Show Home btn
+  logoHome.classList.add("fade-in");
+
   cards.forEach((card, index) => {
     setTimeout(() => {
       card.style.transitionDelay = "0.2s";
@@ -223,6 +222,8 @@ document.querySelectorAll(".btn-arrow-left").forEach((btn) => {
 
 // Going back to explore page when pressing the logo
 logoHome.addEventListener("click", () => {
+  logoHome.classList.remove("fade-in");
+
   if (text.classList.contains("text-fade-out")) {
     text.classList.remove("text-fade-out");
 
