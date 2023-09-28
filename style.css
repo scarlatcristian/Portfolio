@@ -300,16 +300,11 @@ a {
   font-weight: lighter;
 }
 
-.text-and-image {
-  overflow: hidden; /* Clear the float */
-}
-
 .text-and-image img {
   height: 90px;
   float: left;
-  margin-right: 20px;
-  /* Set a width for the image container */
-  shape-outside: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  margin-right: 2rem;
+  shape-outside: circle();
 }
 
 .text-about__btnText h3 {
