@@ -184,10 +184,19 @@ a {
 }
 
 .logo-home a {
-  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
-  -webkit-text-stroke: 0.2px #fff;
-  -webkit-text-fill-color: transparent;
+}
+
+.logo-home h1 {
+  font-size: 2rem;
+}
+
+.logo-home a img {
+  height: 2rem;
+  margin-right: 0.5rem;
 }
 
 .logo-home.fade-in {
@@ -521,7 +530,7 @@ a {
 
 .card h3 {
   color: var(--color-white);
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   text-align: center;
   margin-bottom: 0.5rem;
 }
