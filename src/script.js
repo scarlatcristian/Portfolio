@@ -149,7 +149,7 @@ const ShowBtn = () => {
   cards.forEach((card, idx) => {
     setTimeout(() => {
       card.classList.remove("fade-out");
-    }, idx * 300);
+    }, idx * 200);
   });
 };
 
