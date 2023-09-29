@@ -145,7 +145,7 @@ const ShowBtn = () => {
   cards.forEach((card, idx) => {
     setTimeout(() => {
       card.classList.remove("fade-out");
-    }, idx * 200);
+    }, idx * 100);
   });
 };
 
@@ -161,7 +161,7 @@ btnFadeText.addEventListener("click", () => {
       card.style.transitionDelay = "0.2s";
       card.style.transition = "all 1s ease";
       card.classList.remove("card-invisible");
-    }, 300 * index);
+    }, 100 * index);
   });
 });
 
@@ -203,7 +203,7 @@ document.querySelectorAll(".btn-arrow-left").forEach((btn) => {
     cards.forEach((card, idx) => {
       setTimeout(() => {
         card.classList.remove("fade-out");
-      }, idx * 300);
+      }, 100 * idx);
     });
 
     body.style.overflow = "hidden";
