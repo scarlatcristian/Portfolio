@@ -669,3 +669,36 @@ a {
     animation: none;
   }
 }
+
+/* Contact & Resume */
+.info-contact_resume .icon-contact {
+  height: 3rem;
+}
+
+.info-contact_resume .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem;
+  width: 50%;
+}
+
+.info-contact_resume .container a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.info-contact_resume .container p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.info-contact_resume .container img {
+  margin-right: 3rem;
+}
+
+.info-contact_resume .btn-resume {
+  border-radius: 3rem;
+  width: fit-content;
+  padding: 1rem;
+}
