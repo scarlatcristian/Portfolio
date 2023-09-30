@@ -670,6 +670,49 @@ a {
   }
 }
 
+/* Technologies */
+.technologies-main_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.technologies-main_container li {
+  list-style: none;
+}
+
+.technologies-title {
+  margin: 2rem;
+  color: var(--color-header);
+}
+
+/* Reusable Components */
+.reusable_components-main-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.info-reusable_components p {
+  margin: 3rem;
+}
+
+.reusable_components-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reusable_components-links a {
+  color: #fff;
+  transition: color 0.2s ease-in;
+}
+
+.reusable_components-links a:hover {
+  color: var(--color-header);
+}
+
 /* Contact & Resume */
 .info-contact_resume .icon-contact {
   height: 3rem;
@@ -701,4 +744,11 @@ a {
   border-radius: 3rem;
   width: fit-content;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .info-contact_resume .container {
+    justify-content: center;
+    width: 100%;
+  }
 }

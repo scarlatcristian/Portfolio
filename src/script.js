@@ -173,8 +173,6 @@ const addClassActive = (screen) => {
 
 // TECHNOLOGIES
 btnTechnologies.addEventListener("click", () => {
-  // body.style.overflowX = "hidden";
-  // body.style.overflowY = "visible";
   addClassActive(infoTechnologies);
 });
 
@@ -241,6 +239,14 @@ logoHome.addEventListener("click", () => {
 
     if (infoProjects.classList.contains("active")) {
       infoProjects.classList.remove("active");
+    }
+
+    if (infoContactAndResume.classList.contains("active")) {
+      infoContactAndResume.classList.remove("active");
+    }
+
+    if (infoReusableComponents.classList.contains("active")) {
+      infoReusableComponents.classList.remove("active");
     }
   }
 });
