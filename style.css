@@ -598,7 +598,7 @@ a {
   line-height: 2.7rem;
 
   visibility: hidden;
-  width: 70vw;
+  width: 90vw;
   z-index: 5;
 
   margin-top: 10rem;
@@ -685,6 +685,34 @@ a {
 .technologies-title {
   margin: 2rem;
   color: var(--color-header);
+}
+
+/* Projects */
+.info-projects .projects-title {
+  margin: 2.5rem;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.project-links p {
+  color: var(--color-text);
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+.project-links a {
+  color: var(--color-header);
+  font-size: 1.8rem;
+  transition: color 0.2s ease-in;
+}
+
+.project-links a:hover {
+  color: #0099cc;
 }
 
 /* Reusable Components */
