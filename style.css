@@ -598,7 +598,7 @@ a {
   line-height: 2.7rem;
 
   visibility: hidden;
-  width: 90vw;
+  width: 70vw;
   z-index: 5;
 
   margin-top: 10rem;
@@ -688,6 +688,11 @@ a {
 }
 
 /* Projects */
+
+.info-projects {
+  width: 90vw;
+}
+
 .info-projects .projects-title {
   margin: 2.5rem;
 }
@@ -707,12 +712,23 @@ a {
 
 .project-links a {
   color: var(--color-header);
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: bolder;
   transition: color 0.2s ease-in;
 }
 
 .project-links a:hover {
   color: #0099cc;
+}
+
+.info-projects p .github-account {
+  font-size: 2.5rem;
+  transition: color 0.2s ease-in;
+  color: #ffc107;
+}
+
+.info-projects p .github-account:hover {
+  color: var(--color-header);
 }
 
 /* Reusable Components */
