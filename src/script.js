@@ -128,7 +128,7 @@ btnStart.addEventListener("click", () => {
   }, 700);
 });
 
-// After text arrow-right btn click
+// After text arrow-right btn clicked
 const hideBtn = () => {
   // Calls function that hides logo on scroll
   hideLogo();
