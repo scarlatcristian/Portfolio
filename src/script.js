@@ -274,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 800);
   };
 
-  // Create particles at the cursor position
+  // Create particles at the cursor position when moving
   document.addEventListener("mousemove", function (e) {
     const x = e.clientX;
     const y = e.clientY;
