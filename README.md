@@ -1,3 +1,3 @@
 Portfolio Scarlat Cristian
 
-My portofolio containing my projects, components and my resume
+My portfolio containing my projects, components and my resume
