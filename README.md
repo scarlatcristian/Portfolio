@@ -37,7 +37,7 @@ You can view the live demo of the portfolio [here](#).
     ```
 2. Navigate to the project directory:
     ```bash
-    cd portfolio
+    cd Portfolio
     ```
 3. Open the `index.html` file in your preferred browser to view the portfolio.
 
